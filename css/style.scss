@@ -1,0 +1,60 @@
+//Variables
+
+$red:rgb(199, 19, 19);
+
+//Reset styles
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.wrapper{
+    width: 90%;
+    max-width: 1000px;
+    margin: 0 auto 20px auto;
+}
+
+.background-1{
+    background: $red;
+}
+
+h1{
+    text-align: center;
+    padding: 20px;
+    color: white;
+    text-shadow: 1px 1px 4px black;
+}
+
+#img-heart{
+    height: 400px;
+    float: left;
+    shape-outside: url('../img/heart.png');
+    shape-image-threshold: 0.5;
+    shape-margin: 20px;
+}
+
+p{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+footer{
+    height: 400px;
+    background: $red;
+
+}
+
+
+
+@media(max-width: 900px){
+    #img-heart{
+        height: 300px;
+    }
+}
+
+@media(max-width: 600px){
+    #img-heart{
+        height: 200px;
+    }
+}
