@@ -1,0 +1,1 @@
+Text that floats around the picture.
